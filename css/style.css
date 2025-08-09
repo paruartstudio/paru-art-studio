@@ -1,0 +1,63 @@
+:root{
+  /* Default: Soft Pastel Bridal (recommended) */
+  --bg-color: #fdf9fb;
+  --card-bg: #ffffff;
+  --accent: #d4a5a8; /* soft blush */
+  --accent-2: #d4af37; /* gold */
+  --text: #333333;
+  --muted: #777777;
+  --max-width: 1100px;
+}
+
+/* Alternative themes (switch by adding .theme-ivory or .theme-minimal on <body>) */
+body.theme-ivory{ --bg-color:#fffaf0; --accent:#b76e79; --accent-2:#b76e79; --card-bg:#fff; }
+body.theme-minimal{ --bg-color:#ffffff; --accent:#000000; --accent-2:#333333; --card-bg:#ffffff }
+
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg-color); color:var(--text);}
+.container{width:92%; max-width:var(--max-width); margin:0 auto;}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.logo{display:flex;align-items:center;text-decoration:none;color:var(--text)}
+.logo-mark{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;margin-right:10px}
+.logo-text .script{font-family:'Great Vibes', cursive;font-size:22px}
+.logo-text .sans{font-size:14px}
+.main-nav .nav-list{list-style:none;display:flex;gap:18px;align-items:center;margin:0;padding:0}
+.main-nav .nav-list a{color:var(--text);text-decoration:none}
+.cta{background:transparent;padding:6px 10px;border-radius:6px;border:1px solid var(--accent);}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;background:transparent;border:1px solid var(--accent);text-decoration:none}
+.btn-primary{background:var(--accent);color:#fff;border:none}
+.btn-ghost{background:transparent;border:1px dashed var(--muted)}
+.hero{padding:30px 0}
+.slideshow{height:380px;border-radius:12px;overflow:hidden;position:relative;background:#eee}
+.slide{position:absolute;inset:0;background-size:cover;background-position:center;transition:opacity 0.7s;opacity:0}
+.slide.active{opacity:1}
+.hero-actions{margin-top:14px;display:flex;gap:12px}
+.intro{padding:24px 0}
+.lead{color:var(--muted);font-size:1.05rem}
+.features-grid{display:flex;gap:12px;margin-top:16px}
+.feature{flex:1;background:var(--card-bg);padding:16px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.04)}
+.thumb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+.thumb{background:var(--card-bg);border-radius:8px;overflow:hidden;cursor:pointer;display:block}
+.thumb img{width:100%;height:140px;object-fit:cover;display:block}
+.site-footer{background:transparent;padding:20px 0;border-top:1px solid rgba(0,0,0,0.04)}
+.footer-inner{display:flex;justify-content:space-between;align-items:center}
+.small{text-align:center;padding:10px 0;color:var(--muted)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
+.about-photo{width:100%;border-radius:10px}
+.gallery-page .thumb-grid{margin-top:20px}
+.card{display:inline-block;padding:18px;background:var(--card-bg);border-radius:10px;text-decoration:none;color:var(--text);margin:8px}
+.contact-form{max-width:720px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+label{display:block;margin-bottom:10px}
+input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e6e6}
+.form-cta{display:flex;align-items:center;gap:12px;margin-top:10px}
+.map-block{margin-top:20px;padding:16px;background:var(--card-bg);border-radius:10px}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.8);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.2s}
+.lightbox[aria-hidden="false"]{opacity:1;pointer-events:auto}
+.lightbox img{max-width:90%;max-height:80%;border-radius:8px}
+.lb-close{position:absolute;top:20px;right:30px;background:transparent;border:none;color:#fff;font-size:22px}
+@media(max-width:800px){.features-grid{flex-direction:column}.about-grid{grid-template-columns:1fr}.main-nav .nav-list{display:none}.main-nav.open .nav-list{display:flex;flex-direction:column;position:absolute;top:66px;right:16px;background:var(--card-bg);padding:12px;border-radius:8px;box-shadow:0 10px 30px rgba(0,0,0,0.08)}
+.hero-actions{flex-direction:column}}
+
+/* small helpers */
+.hidden{display:none}
