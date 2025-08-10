@@ -1,12 +1,22 @@
 [
   {
-    "src": "images/placeholder.jpg",
-    "alt": "hair sample 1 - Paru Art Studio",
-    "caption": "hair sample caption 1"
+    "src": "./images/hair/hair-1.jpg",
+    "alt": "hair sample 1",
+    "caption": "hair sample 1"
   },
   {
-    "src": "images/placeholder.jpg",
-    "alt": "hair sample 2 - Paru Art Studio",
-    "caption": "hair sample caption 2"
+    "src": "./images/hair/hair-2.jpg",
+    "alt": "hair sample 2",
+    "caption": "hair sample 2"
+  },
+  {
+    "src": "./images/hair/hair-3.jpg",
+    "alt": "hair sample 3",
+    "caption": "hair sample 3"
+  },
+  {
+    "src": "./images/hair/hair-4.jpg",
+    "alt": "hair sample 4",
+    "caption": "hair sample 4"
   }
 ]

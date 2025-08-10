@@ -1,12 +1,22 @@
 [
   {
-    "src": "images/placeholder.jpg",
-    "alt": "magazine sample 1 - Paru Art Studio",
-    "caption": "magazine sample caption 1"
+    "src": "./images/magazine/magazine-1.jpg",
+    "alt": "magazine sample 1",
+    "caption": "magazine sample 1"
   },
   {
-    "src": "images/placeholder.jpg",
-    "alt": "magazine sample 2 - Paru Art Studio",
-    "caption": "magazine sample caption 2"
+    "src": "./images/magazine/magazine-2.jpg",
+    "alt": "magazine sample 2",
+    "caption": "magazine sample 2"
+  },
+  {
+    "src": "./images/magazine/magazine-3.jpg",
+    "alt": "magazine sample 3",
+    "caption": "magazine sample 3"
+  },
+  {
+    "src": "./images/magazine/magazine-4.jpg",
+    "alt": "magazine sample 4",
+    "caption": "magazine sample 4"
   }
 ]

@@ -1,12 +1,22 @@
 [
   {
-    "src": "images/placeholder.jpg",
-    "alt": "special-occasion sample 1 - Paru Art Studio",
-    "caption": "special-occasion sample caption 1"
+    "src": "./images/special-occasion/special-occasion-1.jpg",
+    "alt": "special-occasion sample 1",
+    "caption": "special-occasion sample 1"
   },
   {
-    "src": "images/placeholder.jpg",
-    "alt": "special-occasion sample 2 - Paru Art Studio",
-    "caption": "special-occasion sample caption 2"
+    "src": "./images/special-occasion/special-occasion-2.jpg",
+    "alt": "special-occasion sample 2",
+    "caption": "special-occasion sample 2"
+  },
+  {
+    "src": "./images/special-occasion/special-occasion-3.jpg",
+    "alt": "special-occasion sample 3",
+    "caption": "special-occasion sample 3"
+  },
+  {
+    "src": "./images/special-occasion/special-occasion-4.jpg",
+    "alt": "special-occasion sample 4",
+    "caption": "special-occasion sample 4"
   }
 ]

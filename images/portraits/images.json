@@ -1,0 +1,22 @@
+[
+  {
+    "src": "./images/portraits/portraits-1.jpg",
+    "alt": "portraits sample 1",
+    "caption": "portraits sample 1"
+  },
+  {
+    "src": "./images/portraits/portraits-2.jpg",
+    "alt": "portraits sample 2",
+    "caption": "portraits sample 2"
+  },
+  {
+    "src": "./images/portraits/portraits-3.jpg",
+    "alt": "portraits sample 3",
+    "caption": "portraits sample 3"
+  },
+  {
+    "src": "./images/portraits/portraits-4.jpg",
+    "alt": "portraits sample 4",
+    "caption": "portraits sample 4"
+  }
+]

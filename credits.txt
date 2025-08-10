@@ -1,0 +1,9 @@
+Images sourced via Unsplash Source (https://source.unsplash.com).
+After running download_images.sh, you can find specific photographer credits by checking the image pages on Unsplash.
+Queries used per folder:
+- bridal: bridal,wedding,bride,makeup,indian bride
+- hair: hairstyle,updo,bridal hair
+- special-occasion: party makeup,prom makeup,event makeup
+- magazine: editorial makeup,fashion makeup,photoshoot
+- portraits: portrait,portrait photography,fine art portrait,beauty portrait
+Unsplash images are free to use under the Unsplash License. Attribution is appreciated.
