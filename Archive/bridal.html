@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bridal Makeup Gallery — Paru Art Studio | Bridal Makeup Orange County</title>
+  <meta name="description" content="Bridal makeup gallery by Paru Art Studio. Indian bridal makeup, natural bridal looks, and wedding hair styling in Orange County, CA.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-pastel">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><div class="logo-mark">P</div><div class="logo-text"><span class="script">Paru</span> <span class="sans">Art Studio</span></div></a>
+      <nav class="main-nav">
+        <button id="navToggle" aria-label="Open menu">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li class="has-dropdown"><a href="portfolio.html">Portfolio ▾</a>
+            <ul class="dropdown">
+              <li><a href="bridal.html">Bridal</a></li>
+              <li><a href="hair.html">Hair</a></li>
+              <li><a href="special-occasion.html">Special Occasion</a></li>
+              <li><a href="magazine.html">Magazine</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container gallery-page">
+    <h1>Bridal Gallery</h1>
+    <p class="lead">Click any image to view larger. Alt text and filenames include local keywords to help SEO.</p>
+    <div id="gallery" class="thumb-grid">
+      <!-- populated by js -> loadGallery('bridal') -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><div><strong>Paru Art Studio</strong><address>Huntington Beach, CA<br>Phone: <a href="tel:7245546770">724-554-6770</a></address></div><div class="socials"><a href="#">Instagram</a> • <a href="#">Facebook</a></div></div>
+    <div class="small">© <span id="year"></span> Paru Art Studio — All rights reserved.</div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lb-close">✕</button>
+    <img id="lbImage" src="" alt="">
+    <div id="lbCaption" class="lb-caption"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script>loadGallery('bridal');</script>
+</body>
+</html>
