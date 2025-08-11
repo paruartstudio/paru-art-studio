@@ -1,22 +1,12 @@
 [
   {
-    "src": "./images/bridal/bridal-1.jpg",
-    "alt": "bridal sample 1",
-    "caption": "bridal sample 1"
+    "src": "images/placeholder.jpg",
+    "alt": "Bridal sample 1 - Paru Art Studio",
+    "caption": "Natural bridal makeup - Orange County"
   },
   {
-    "src": "./images/bridal/bridal-2.jpg",
-    "alt": "bridal sample 2",
-    "caption": "bridal sample 2"
-  },
-  {
-    "src": "./images/bridal/bridal-3.jpg",
-    "alt": "bridal sample 3",
-    "caption": "bridal sample 3"
-  },
-  {
-    "src": "./images/bridal/bridal-4.jpg",
-    "alt": "bridal sample 4",
-    "caption": "bridal sample 4"
+    "src": "images/placeholder.jpg",
+    "alt": "Bridal sample 2 - Paru Art Studio",
+    "caption": "Indian bridal look - Huntington Beach"
   }
 ]
